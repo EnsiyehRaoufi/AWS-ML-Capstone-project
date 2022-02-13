@@ -75,7 +75,7 @@ I've downloaded all the json files of Starbucks dataset from Udacity. I have upl
 ## Model Training
 My problem is one of the hundreds of question that one can ask about this dataset and here is the question I am asking:
 
-** "Build a machine learning model that predicts how much more someone will spend based on demographics and offer type they will receive/view during the time.". **
+**"Build a machine learning model that predicts how much more someone will spend based on demographics and offer type they will receive/view during the time.". **
  
 For solving this problem I should first make a complete table from all other data tables that can work on it as the source data. This table must contain all the persons with all of their offers and transactions infromation. Then I should make a column that contains cumulative amount of transacrtions in this table. Because I'm investigating the increasing amount of customer transactions when they interface an offer, so I should remove the other rows that a customer does not receive/view/complete an offer. Then I should use a model like Random Forest Scikit_Learn to predict the customer's cumulative transactions. I can ignore columns that have a less importance by several training and getting feature importance each time. I should evaluate my model using metrics like R2 score, mean-squared/absolute error that are suitable metrics for my regression problem.
 
