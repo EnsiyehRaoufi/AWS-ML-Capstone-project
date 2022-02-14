@@ -84,3 +84,7 @@ The solution to my question would be found with building a machine learning mode
 
 ## Standout Suggestions
 I think it's a good idea to develop a deep neural network model to predict my test data with an R2 score of above 90%. Also by having a neat table of data, I consider designing various classification and regression problems on the same dataset that can answer other aspects of the effects of advertisement on sales. For example, we can create a binary classification model to predict if a customer receives a special kind of offer, would they complete the offer or not, or will they view the offer or not (predicting a class label). In the case of predicting a class probability, we can ask what are the probabilities of a specified customer to complete any of 10 classes of offers. There are many problems that we can design and answer on this dataset. Solving each of them needs a lot of effort, but at last your hard work always pays off.
+
+##License
+I have attached a Apache License 2.0 to this repository, click to see [here](https://github.com/EnsiyehRaoufi/AWS-ML-Capstone-project/blob/main/LICENSE)
+
